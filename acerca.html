@@ -1,0 +1,118 @@
+﻿<!Doctype html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Menu</title>
+	<link href='https://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="css/estilos.css">
+	<link rel="stylesheet" href="css/slide.css">
+	<link rel="stylesheet" href="fonts.css">
+	<script src="js/jquery-1.11.3.min.js"></script>
+	<script src="js/menu.js"></script>
+	<script src="js/arriba.js"></script>
+</head>
+<body>
+	<header>
+		<div class="menu_bar">
+			<a href="#" class="bt-menu"><span class="icon-menu"></span></a>
+		</div>
+ 
+		<nav>
+			<ul>
+				<li><a href="index.html"><span class="icon-books"></span>Historia</a></li>
+				<li><a href="#"><span class="icon-camera"></span>¿Qué visitar?</a></li>
+				<li><a href="#"><span class="icon-bell"></span>Iglesias</a></li>
+				<li><a href="#"><span class="icon-leaf"></span>Parques</a></li>
+				<li><a href="#"><span class="icon-cool"></span>Distracciones</a></li>
+				<li><a href="#"><span class="icon-office"></span>Hoteles</a></li>
+				<li><a href="#"><span class="icon-spoon-knife"></span>Restaurantes</a></li>
+				<li><a href="#"><span class="icon-mug"></span>Cafes</a></li>
+				<li><a href="#"><span class="icon-glass2"></span>Bares</a></li>
+				<li><a href="#"><span class="icon-aid-kit"></span>Servicios de Emergencia</a></li>
+				<li><a href="acerca.html"><span class="icon-pacman"></span>Acerca de</a></li>
+			</ul>
+		</nav>
+	</header>
+	<span class="ir-arriba icon-arrow-up2"></span>
+	<section>
+	<p align="justify" class="acerca">
+	<br>
+	<h3 align="center">CBTis 184 AGUSTIN CORTES HUITZILAC</h3>
+	<div style="background: #fefefe; width=100%;">
+	<br>
+	<center><img src="img/cbtis.png" width="50%"></center>
+	<br>
+	</div>
+	<hr>
+	<br>
+	<div align="center">
+	<br>
+	<p align="justify">
+		Aplicación desarrollada por alumnos del CBTis no.184 "Agustín Cortés Huitzilac"  de 5to Semestre Grupo "E", en la especialidad de programación.
+	</p>
+	<br>
+	<span class="icon-location iconos " style="color: #F03047"></span> Carretera Matamoros-Atencingo Km 1 Fracc. Rancho Juanitos, I. de Matamoros
+	<br>
+	
+	
+	<div class="phone">
+	<a href="tel://2434362420"><span class="icon-phone iconos" style="color:#009D84"></span>Telefono:<b> 243-43-6-24-20</b></a>
+	</div> 
+	
+	</div>
+	<br>
+	<div align="center">
+	
+		<a href="https://www.facebook.com/Developers184.CBTis" target="_blank" class="social-f"><span class="icon-facebook3"></span></a><a href="mailto:gans.rke12@gmail.com" class="social-m"><span class="icon-mail4"></span></a>
+	<br>
+	</div>
+	<hr>
+	<br>
+	</p>
+	</section>
+	<div class="main">
+		
+		<div class="slides">
+			<img src="img/1.jpg">
+			<img src="img/2.jpg">
+			<img src="img/3.jpg">
+			<img src="img/4.jpg">
+			<img src="img/5.jpg">
+			<img src="img/6.jpg">
+		
+		</div>
+
+	</div>
+	<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+	<script src="js/jquery.slides.js"></script>
+	<script>
+
+	$(function(){
+  $(".slides").slidesjs({
+    play: {
+      active: true,
+        // [boolean] Generate the play and stop buttons.
+        // You cannot use your own buttons. Sorry.
+      effect: "slide",
+        // [string] Can be either "slide" or "fade".
+      interval: 4000,
+        // [number] Time spent on each slide in milliseconds.
+      auto: false,
+        // [boolean] Start playing the slideshow on load.
+      swap: true,
+        // [boolean] show/hide stop and play buttons
+      pauseOnHover: false,
+        // [boolean] pause a playing slideshow on hover
+      restartDelay: 2500
+        // [number] restart delay on inactive slideshow
+    }
+  });
+});
+
+	</script>
+
+	
+
+</body>
+</html>
